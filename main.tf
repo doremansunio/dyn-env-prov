@@ -4,10 +4,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "pk-bucket-1"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "phanibucket"
     Environment = "Dev"
   }
 }
